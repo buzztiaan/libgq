@@ -1,7 +1,8 @@
 AC_INIT([libgq],[0.2],[marius.vollmer@nokia.com],[libgq])
 AC_CONFIG_SRCDIR([Makefile.am])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign -Wno-portability])
 
+AM_PROG_AR
 AC_PROG_CXX
 AC_PROG_LIBTOOL
 
